@@ -1,6 +1,5 @@
 <?php
-$connection = mysqli_connect('localhost','root','');
-mysqli_select_db($connection,'GuideME_SL')or die("Error occured");
+require "connect.php";
 //create users table
 $sql = "CREATE TABLE IF NOT EXISTS users(
    username VARCHAR(100) NOT NULL , 
