@@ -7,8 +7,9 @@ $sql = "CREATE TABLE IF NOT EXISTS users(
    primary key ( username ))";
 $retval = mysqli_query($connection,$sql);
 if(! $retval ) {
-    die('Could not create table: ');
+    echo "Could not create table ";
+}else{
+   echo "Table users created successfully\n";
 }
-echo "Table users created successfully\n";
 ?>
 
