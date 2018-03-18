@@ -1,7 +1,7 @@
 <?php
-$db_name="GuideME_SL";
-$mysql_username = "root";
-$mysql_password="";
-$mysql_server="localhost";
+$db_name="guidemesldb";
+$mysql_username = "shaliadmin";
+$mysql_password="shaliadmin";
+$mysql_server="db4free.net";
 $connection=mysqli_connect($mysql_server, $mysql_username, $mysql_password,$db_name);
 ?>
